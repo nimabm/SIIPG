@@ -1,9 +1,9 @@
 # SPIPG
-Simple Persian Internet Payment Gateway (IPG) in PHP
+Simple Iran Internet Payment Gateway (IPG) in PHP  
 This library includes MellatBank and ZarrinPal classes and new IPGs will be added soon.
 
 ### Bank Mellat Example :
-
+------------
 ##### Bank Mellat Config
 ```php
 $config = ['terminal' => (int) ,
@@ -30,7 +30,7 @@ $config = ['terminal' => (int) ,
 
 
 ### Zarinpal Example :
-
+------------
 ##### Zarinpal Config
 ```php
 $config = ['merchantid' => 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'(str),
