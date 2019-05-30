@@ -32,7 +32,7 @@ class SPIGP {
 }
 
 
-class Mellat extends IPG {
+class Mellat extends SPIGP {
 
     public function start(){
         $client             = new nusoap_client($this->mellat_wsdl_url,'wsdl');
@@ -300,7 +300,7 @@ class Mellat extends IPG {
 
 
 
-class Zarinpal extends IPG {
+class Zarinpal extends SPIGP {
     public function start(){
         $client = new nusoap_client($this->zarinpal_wsdl_url, 'wsdl');
         $client->soap_defencoding = 'UTF-8';
