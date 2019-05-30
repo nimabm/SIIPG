@@ -17,7 +17,7 @@ class SPIGP {
     public $Authority = NULL;
 
 
-    public function set_data($data){
+    public function set_config($data){
         if(isset($data['terminal'])){$this->terminal    =   $data['terminal'];}
         if(isset($data['username'])){$this->username    =   $data['username'];}
         if(isset($data['password'])){$this->password    =   $data['password'];}
