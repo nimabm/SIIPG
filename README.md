@@ -1,4 +1,4 @@
-# SPIPG
+# SIIPG
 Simple Iran Internet Payment Gateway (IPG) in PHP  
 This library includes MellatBank and ZarrinPal classes and new IPGs will be added soon.
 
