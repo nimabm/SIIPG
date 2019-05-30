@@ -1,6 +1,6 @@
 <?php
 
-class SPIPG {
+class SIIPG {
 
     public $terminal  = NULL;
     public $username  = NULL;
@@ -32,7 +32,7 @@ class SPIPG {
 }
 
 
-class Mellat extends SPIPG {
+class Mellat extends SIIPG {
 
     public function start(){
         $client             = new nusoap_client($this->mellat_wsdl_url,'wsdl');
@@ -300,7 +300,7 @@ class Mellat extends SPIPG {
 
 
 
-class Zarinpal extends SPIGP {
+class Zarinpal extends SIIPG {
     public function start(){
         $client = new nusoap_client($this->zarinpal_wsdl_url, 'wsdl');
         $client->soap_defencoding = 'UTF-8';
