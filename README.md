@@ -17,14 +17,14 @@ $config = ['terminal' => (int) ,
 ```php
 #Mellat Payment Start: (payment.php)
     $ipg = new Mellat();
-    $ipg->set_data($config);
+    $ipg->set_config($config);
     $return = $ipg->start();
 ```   
 #### Bank Mellat Payment Verification: (callback.php) 
 ```php    
 #Mellat Payment Verification: (callback.php) 
     $ipg = new Mellat();
-    $ipg->set_data($config);
+    $ipg->set_config($config);
     $return = $ipg->payment_check($_REQUEST);
 ```
 
@@ -42,13 +42,13 @@ $config = ['merchantid' => 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'(str),
 #### Zarinpal Payment Start: (payment.php)
 ```php
     $ipg = new Zarinpal();
-    $ipg->set_data($config);
+    $ipg->set_config($config);
     $return = $ipg->start();
 ```
 #### Zarinpal Payment Verification: (callback.php) 
 ```php     
     $ipg = new Zarinpal();
-    $ipg->set_data($config);
+    $ipg->set_config($config);
     $return = $ipg->payment_check($_REQUEST);
 ```
 
