@@ -1,6 +1,6 @@
 <?php
 
-class SPIGP {
+class SPIPG {
 
     public $terminal  = NULL;
     public $username  = NULL;
@@ -32,7 +32,7 @@ class SPIGP {
 }
 
 
-class Mellat extends SPIGP {
+class Mellat extends SPIPG {
 
     public function start(){
         $client             = new nusoap_client($this->mellat_wsdl_url,'wsdl');
